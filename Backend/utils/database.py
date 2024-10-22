@@ -30,7 +30,7 @@ async def check_auth(email: str, password: str) -> bool:
     auth = await AUTHDB.find_one({"email": email})
     if auth:
         if auth["password"] == password:
-            return True
+            return True, "Login Successful"
         else:
             return False, "Invalid Password"
     else:

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User or Shop Owner Form</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="card">
+      <div class="card-body">
+        <h2 class="card-title text-center">Please Select Your Role</h2>
+        <form id="roleForm">
+          <div class="form-group">
+            <label for="role">Are you a user or shop owner?</label>
+            <select class="form-control" id="role" required>
+              <option value="">Select...</option>
+              <option value="user">User</option>
+              <option value="shopOwner">Shop Owner</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Continue</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/profile.js"></script>
+</body>
+</html>

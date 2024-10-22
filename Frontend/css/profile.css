@@ -1,0 +1,19 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 500px;
+  }
+  
+  .card {
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
