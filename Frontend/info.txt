@@ -1,0 +1,44 @@
+🩺 MediConnect: Medicine Stock and Availability Tracker
+
+📄 Description:  
+MediConnect addresses the critical issue of medicine unavailability in local pharmacies. Our real-time tracking system helps patients check the availability of specific medicines at nearby pharmacies, find alternatives, or pre-order medications, ensuring timely access to essential drugs.
+
+🔑 Key Features:
+
+- 🔍 Medicine Search:  
+  Search for medicines by name, brand, or category.
+
+- 📊 Real-Time Stock Updates:  
+  Pharmacies can update their inventory in real-time via a web portal, with automated inventory management tools to reduce manual effort.
+
+- 📍 Nearby Pharmacy Locator:  
+  Integrated maps display pharmacies carrying the medicine within a selected radius.
+
+- 🛒 Pre-Ordering & Reservations:  
+  Reserve medicines for pickup and get notified when out-of-stock items are restocked.
+
+- 🏪 Pharmacy Profiles:  
+  View pharmacy details such as operating hours, contact info, and services offered.
+
+- 👤 User Accounts:  
+  Save favorite pharmacies or medicines, and set up medication reminders and refill alerts.
+
+🛠 Additional Features:
+
+- Implement auto-complete and suggestion features using JavaScript.
+- Design a clean and intuitive search interface with filters and sorting options.
+- Allow batch uploads via CSV for bulk updates.
+
+Main Features : medicine search, inventory system, nearby shop, medicine booking
+
+TODO (in priority order) :
+
+1. inventory system
+2. analytics for inventory system
+3. medicine search
+4. nearby shop
+5, medicine booking
+
+iske upar sab Pehle, ek shop aur ek user dimag mai rakh ke banao, bhul jao login wagaira
+
+6. multiple shops/user account access
